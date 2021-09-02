@@ -7,18 +7,12 @@
 #include <iostream>
 
 /**
-* This class implements a very important object for similarity search: just a single and simple
-* feature vector that can make your life easier when talking about using arboretum resources. Be-
-* cause of internal use on MAM's we must inherance from stObject class.
-*
 * For illustration, consider the feature vector as follows:
 * +-----+------+------------------+
 * | OID | Size | Vector Data []   |
 * +-----+------+------------------+
 *
 * @brief This class implements a generic feature vector
-* @author Marcos Vinicius Naves Bedo
-* @version 1.0
 * @arg DType The data type stored by each position of the feature vector
 */
 template <class DType>
