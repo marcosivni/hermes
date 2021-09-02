@@ -5,13 +5,6 @@
 #include <cmath>
 #include <stdexcept>
 
-/**
-* Class to obtain the Canberra Distance
-*
-* @brief Canberra distance class.
-* @author 006
-* @version 1.0.
-*/
 template <class ObjectType>
 class CanberraDistance : public DistanceFunction <ObjectType>{
 
